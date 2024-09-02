@@ -2,7 +2,7 @@ import os
 import shutil
 
 # 定义文件夹路径
-folder_path = "D:\College\PY\onestage_grounding-master\SSSS"
+folder_path = "./data/ner_img/"
 
 # 定义需要检查的文件名模板
 required_files = [
