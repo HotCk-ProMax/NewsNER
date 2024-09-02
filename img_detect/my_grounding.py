@@ -14,10 +14,10 @@ from utils.transforms import *
 
 def main():
     ########### path settings #########
-    corpus_pth = './data/referit/corpus.pth'
-    resume_path = './saved_models/lstm_referit_model.pth.tar'
-    test_img_root = '../data/pictures'
-    output_root = '../data/ner_img/'
+    corpus_pth = './img_detect/data/referit/corpus.pth'
+    resume_path = './img_detect/saved_models/lstm_referit_model.pth.tar'
+    test_img_root = './data/pictures'
+    output_root = './data/ner_img/'
     valid_img_ext = ['jpg', 'png']
 
     ########### running settings ##############

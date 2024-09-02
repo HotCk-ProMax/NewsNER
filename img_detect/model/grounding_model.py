@@ -111,8 +111,8 @@ class grounding_model(nn.Module):
         else:
             self.textdim=1024
         ## Visual model
-        self.visumodel = Darknet(config_path='./model/yolov3.cfg')
-        self.visumodel.load_weights('./saved_models/yolov3.weights')
+        self.visumodel = Darknet(config_path='./img_detect/model/yolov3.cfg')
+        self.visumodel.load_weights('./img_detect/saved_models/yolov3.weights')
         ## Text model
         if self.lstm:
             self.textdim, self.embdim=1024, 512
