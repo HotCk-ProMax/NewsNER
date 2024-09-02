@@ -4,3 +4,4 @@ NewsNER is a project to extract cross-domain multimodal named entity recognition
 
 Run "run.py" to complete the task. You can enter each script to modify the save path or change the number of news crawled. Specify the script to be run in "run.py".
 
+The classifier is from [BBC-Dataset-News-Classification](https://github.com/suraj-deshmukh/BBC-Dataset-News-Classification) and the object detection is from [onestage_grounding](https://github.com/TransformersWsz/onestage_grounding).
